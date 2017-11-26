@@ -23,7 +23,7 @@ from tkinter import *
              return
        button["text"] = player 
        button["bg"] = "yellow"
- +def end(Winner) :
+ def end(Winner) :
   
        if player == "X" :
              player = "O"
